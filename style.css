@@ -152,6 +152,11 @@ ul{
 	margin:0 20px;
 }
 
+.home__text span{
+	font-size: 20px;
+	text-align: center;
+}
+
 /*delete before final*/
 
 .wrapper{
