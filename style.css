@@ -11,6 +11,8 @@ ul{
 	font-family: 'Roboto', sans-serif;
 }
 
+/*menu*/
+
 .menu ul>li>a{
 	text-transform: uppercase;
 	text-decoration: none;
@@ -38,6 +40,8 @@ ul{
 	background: #D51731;
 }
 
+/*home*/
+
 .home{
 	background: #D51731;
 	height: 500px;
@@ -63,14 +67,21 @@ ul{
 	font-weight:bold;
 }
 
+.home__text span{
+	font-size: 20px;
+	text-align: center;
+}
+
 .home__border{
 	margin-right: 80px;
 	border:solid 20px #FFF3E6;
 	border-radius: 200px;
     height: 200px;
     width: 200px;
-    background: url(av.jpg) no-repeat left center / cover;
+    background: url(img/av.jpg) no-repeat left center / cover;
 }
+
+/*about*/
 
 .about{
 	background:#FFF3E6; 
@@ -96,6 +107,8 @@ ul{
 	border-left: 3px solid lightgrey;
 }
 
+/*portfolio*/
+
 .portfolio{
 	background: #D51731;
 	height: 570px;
@@ -117,6 +130,8 @@ ul{
 	font-weight: bold;
 	color:#FFF3E6;
 }
+
+/*contact*/
 
 .contact{
 	background:#FFF3E6; 
@@ -152,15 +167,13 @@ ul{
 	margin:0 20px;
 }
 
-.home__text span{
-	font-size: 20px;
-	text-align: center;
-}
-
 /*delete before final*/
 
 .wrapper{
-	text-align: center;
+	display: -webkit-flex;
+	-webkit-align-items: center;
+	-webkit-justify-content:center;
+	-webkit-flex-flow: column wrap;
 	position: absolute;
 	left: 0;
 	right: 0;
