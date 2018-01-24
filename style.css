@@ -144,6 +144,7 @@ ul{
 	box-shadow: 0 2px #C1BFC2;
 	position: relative;
 	z-index: 2;
+	overflow: hidden;
 }
 
 .contact__text{
